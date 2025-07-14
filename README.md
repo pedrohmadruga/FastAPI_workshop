@@ -61,7 +61,7 @@ This project is a simple REST API built using **FastAPI**. It allows users to cr
 
 ```
 FastAPI_workshop/
-├── blog/: Main application package.
+├── blog/                   Main application package.
 ├───── repository/          Contains CRUD logic and database operations.
 ├───── routers/             Organizes API routes/endpoints.
 ├───── database.py          Database connection setup.
