@@ -61,12 +61,17 @@ This project is a simple REST API built using **FastAPI**. It allows users to cr
 
 ```
 FastAPI_workshop/
-├── main.py
-├── models.py
-├── routers/
-├── auth/
-├── schemas.py
-├── database.py
+├── blog/
+├───── repository/
+├───── routers/
+├───── database.py
+├───── hashing.py
+├───── main.py
+├───── models.py
+├───── oauth2.py
+├───── schemas.py
+├───── token.py
+├── blog.db
 └── requirements.txt
 ```
 
